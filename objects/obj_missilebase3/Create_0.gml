@@ -11,3 +11,10 @@ image_index = 0;
 /// @DnDHash : 5CC14B21
 /// @DnDArgument : "speed" "0"
 image_speed = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1783692C
+/// @DnDArgument : "expr" "10"
+/// @DnDArgument : "var" "ammo"
+ammo = 10;
