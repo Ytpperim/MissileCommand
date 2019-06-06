@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "4d8c9e6f-6f89-4791-bff4-b4665c9aa265",
+            "Value": {
+                "id": "d946a805-18fd-45ed-9bfb-ad4e8e3fd84a",
+                "resourcePath": "timelines\\timeline_enemyMissile\\timeline_enemyMissile.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "57f6a473-a8d8-470b-89e2-f8cb3432f309",
             "Value": {
                 "id": "7997ad86-8ad7-4d0a-b27d-1d72d3bfd4e3",
@@ -172,6 +180,14 @@
                 "id": "9eb38da0-3f3c-48fd-b3be-fe72f1f2c6b8",
                 "resourcePath": "views\\9b22909e-d034-4cf1-8360-b84cac6d4758.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aaaa69ac-b4cb-40ed-951f-def18d60af1a",
+            "Value": {
+                "id": "7e3b91e7-8360-4daa-a6e7-484af6b42e12",
+                "resourcePath": "objects\\obj_explosion\\obj_explosion.yy",
+                "resourceType": "GMObject"
             }
         },
         {
