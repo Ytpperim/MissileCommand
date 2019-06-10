@@ -11,9 +11,9 @@ if(l6C50ADFB_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 7352CF72
 	/// @DnDParent : 6C50ADFB
-	/// @DnDArgument : "x" "irandom_range(100,900)"
+	/// @DnDArgument : "x" "irandom_range(90,900)"
 	/// @DnDArgument : "y" "660"
-	direction = point_direction(x, y, irandom_range(100,900), 660);
+	direction = point_direction(x, y, irandom_range(90,900), 660);
 
 	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1

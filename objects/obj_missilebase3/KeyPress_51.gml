@@ -43,5 +43,13 @@ if(mouse_y < 576)
 		/// @DnDSaveInfo : "spriteind" "c5f64928-1695-4c72-8131-093ee9fe4282"
 		sprite_index = spr_missilebase;
 		image_index += +1;
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Code
+		/// @DnDVersion : 1
+		/// @DnDHash : 5414EA8E
+		/// @DnDParent : 32265CC0
+		/// @DnDArgument : "code" "global.mouseY = mouse_y$(13_10)global.mouseX = mouse_x"
+		global.mouseY = mouse_y
+		global.mouseX = mouse_x
 	}
 }

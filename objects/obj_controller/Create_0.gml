@@ -11,5 +11,11 @@ timeline_running = 1;
 /// @DnDAction : YoYo Games.Timelines.Speed_Timeline
 /// @DnDVersion : 1
 /// @DnDHash : 0304553C
-/// @DnDArgument : "speed" "10"
-timeline_speed = 10;
+/// @DnDArgument : "speed" "5"
+timeline_speed = 5;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 7CB61C03
+/// @DnDArgument : "code" "global.playerScore = 0;"
+global.playerScore = 0;
