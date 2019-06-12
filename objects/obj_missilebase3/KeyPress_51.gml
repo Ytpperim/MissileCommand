@@ -51,5 +51,21 @@ if(mouse_y < 576)
 		/// @DnDArgument : "code" "global.mouseY = mouse_y$(13_10)global.mouseX = mouse_x"
 		global.mouseY = mouse_y
 		global.mouseX = mouse_x
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 2676F2E2
+		/// @DnDParent : 32265CC0
+		/// @DnDArgument : "var" "ammo"
+		/// @DnDArgument : "op" "3"
+		if(ammo <= 0)
+		{
+			/// @DnDAction : YoYo Games.Instances.Set_Alarm
+			/// @DnDVersion : 1
+			/// @DnDHash : 2CA67DE8
+			/// @DnDParent : 2676F2E2
+			/// @DnDArgument : "steps" "room_speed * 10"
+			alarm_set(0, room_speed * 10);
+		}
 	}
 }
